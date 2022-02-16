@@ -1,0 +1,112 @@
+
+.click{
+    width:80%;
+    margin-top:0;
+    position: fixed;
+}
+
+ul{
+    list-style: none;
+    
+}
+
+.menu__list2{
+    margin-top: 0px;
+    background-color: grey;
+    height:100vh;
+    
+}
+
+.menu__7{
+    padding-top: 1rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.menu__7:hover{
+    color:red;
+    text-decoration: underline;
+    transition: 0.3s ease-in-out;
+}
+
+.menu__8{
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.menu__8:hover{
+    color:red;
+    text-decoration: underline;
+    transition: 0.3s ease-in-out;
+}
+
+.menu__9{
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.menu__9:hover{
+    color:red;
+    text-decoration: underline;
+    transition: 0.3s ease-in-out;
+}
+
+.menu__10{
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.menu__10:hover{
+    color:red;
+    text-decoration: underline;
+    transition: 0.3s ease-in-out;
+}
+
+.menu__11{
+    font-weight: 700;
+   
+}
+
+.menu__11:hover{
+    color:red;
+    text-decoration: underline;
+    transition: 0.3s ease-in-out;
+}
+.menu__12{
+    padding-top: 1rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.menu__12:hover{
+    color:red;
+    text-decoration: underline;
+    transition: 0.3s ease-in-out;
+}
+.header2{
+    display: flex;
+   
+    height:100vh;
+    background-color: red;
+    color:white;
+    height:4rem;
+    padding-left: 3rem;
+    padding-right:2rem;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.close >.MuiSvgIcon-root{
+    height:2rem;
+    width:2rem;
+    font-weight: 700;
+   
+}
+
+
+@media only screen and (min-width:767px){
+    .click{
+        display: none;
+    }
+}

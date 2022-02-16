@@ -1,0 +1,900 @@
+.whole{
+    
+    overflow-y: hidden;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.category{
+    display: flex;
+    justify-content: space-between;
+    padding-left:5rem;
+    padding-right: 5rem;
+    padding-top:1rem;
+    
+}
+
+
+
+.content1 img{
+    height:6rem;
+    width:6rem;
+}
+
+.content2 img{
+    height:6rem;
+    width:6rem;
+}
+.content3 img{
+    height:6rem;
+    width:6rem;
+}
+.content4 img{
+    height:6rem;
+    width:6rem;
+}
+.content5 img{
+    height:6rem;
+    width:6rem;
+}
+.content6 img{
+    height:6rem;
+    width:6rem;
+}
+.content1 p{
+    color:black;
+    font-weight: 700;
+    cursor: pointer;
+    
+}
+
+.content2 p{
+    color:black;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.content3 p{
+    color:black;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.content4 p{
+    color:black;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.content5 p{
+    color:black;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.content6 p{
+    color:black;
+    font-weight: 700;
+    cursor: pointer;
+}
+.content1 p:hover{
+    color:red;
+    transition:0.3s ease-in-out;
+
+    transform: scale(1.2);
+}
+.content2 p:hover{
+    color:red;
+    transition:0.3s ease-in-out;
+  
+    transform: scale(1.2);
+}
+.content3 p:hover{
+    color:red;
+    transition:0.3s ease-in-out;
+ 
+    transform: scale(1.2);
+}
+.content4 p:hover{
+    color:red;
+    transition:0.3s ease-in-out;
+    
+    transform: scale(1.2);
+}
+.content5 p:hover{
+    color:red;
+    transition:0.3s ease-in-out;
+    
+    transform: scale(1.2);
+}
+.content6 p:hover{
+    color:red;
+    transition:0.3s ease-in-out;
+    
+    transform: scale(1.2);
+}
+
+
+
+
+@media only screen and (max-width:769px){
+
+    .category{
+        padding-right:0;
+        padding-left:0;
+        padding-top:1rem;
+    }
+
+    .content1 img{
+        height:3rem;
+        width:3rem;
+    }
+    
+    .content2 img{
+        height:3rem;
+        width:3rem;
+    }
+    .content3 img{
+        height:3rem;
+        width:3rem;
+    }
+    .content4 img{
+        height:3rem;
+        width:3rem;
+    }
+    .content5 img{
+        height:3rem;
+        width:3rem;
+    }
+    .content6 img{
+        height:3rem;
+        width:3rem;
+    }
+    .content1 p{
+        font-weight: 700;
+        font-size:10px;
+        margin-right: .5rem;
+        
+    }
+    
+    .content2 p{
+        font-weight: 700;
+        font-size:10px;
+        margin-right: .5rem;
+    }
+    
+    .content3 p{
+        font-weight: 700;
+        font-size:10px;
+        margin-right: .5rem;
+    }
+    
+    .content4 p{
+        font-weight: 700;
+        font-size:10px;
+        margin-right: .5rem;
+    }
+    
+    .content5 p{
+        font-weight: 700;
+        font-size:10px;
+        margin-right: .5rem;
+    }
+    
+    .content6 p{
+        font-weight: 700;
+        font-size:10px;
+        margin-right: .5rem;
+    }
+    .content1 p:hover{
+        color:red;
+        transition:0.3s ease-in-out;
+        
+        transform: scale(1.2);
+    }
+    .content2 p:hover{
+        color:red;
+        transition:0.3s ease-in-out;
+      
+        transform: scale(1.2);
+    }
+    .content3 p:hover{
+        color:red;
+        transition:0.3s ease-in-out;
+        
+        transform: scale(1.2);
+    }
+    .content4 p:hover{
+        color:red;
+        transition:0.3s ease-in-out;
+        
+        transform: scale(1.2);
+    }
+    .content5 p:hover{
+        color:red;
+        transition:0.3s ease-in-out;
+        
+        transform: scale(1.2);
+    }
+    .content6 p:hover{
+        color:red;
+        transition:0.3s ease-in-out;
+        
+        transform: scale(1.2);
+    }
+    
+    
+    
+    
+    
+}
+
+
+@media only screen and (max-width:400px){
+
+    .category{
+        padding-right:0;
+        padding-left:0;
+        padding-top:1rem;
+    }
+
+    .content1 img{
+        height:2.5rem;
+        width:2.5rem;
+    }
+    
+    .content2 img{
+        height:2.5rem;
+        width:2.5rem;
+    }
+    .content3 img{
+        height:2.5rem;
+        width:2.5rem;
+    }
+    .content4 img{
+        height:2.5rem;
+        width:2.5rem;
+    }
+    .content5 img{
+        height:2.5rem;
+        width:2.5rem;
+    }
+    .content6 img{
+        height:2.5rem;
+        width:2.5rem;
+    }
+    .content1 p{
+        font-weight: 700;
+        font-size:7px;
+        margin-right: .5rem;
+        
+    }
+    
+    .content2 p{
+        font-weight: 700;
+        font-size:7px;
+        margin-right: .5rem;
+    }
+    
+    .content3 p{
+        font-weight: 700;
+        font-size:7px;
+        margin-right: .5rem;
+    }
+    
+    .content4 p{
+        font-weight: 700;
+        font-size:7px;
+        margin-right: .5rem;
+    }
+    
+    .content5 p{
+        font-weight: 700;
+        font-size:7px;
+        margin-right: .5rem;
+    }
+    
+    .content6 p{
+        font-weight: 700;
+        font-size:7px;
+        margin-right: .5rem;
+    }
+    .content1 p:hover{
+        color:red;
+        transition:0.3s ease-in-out;
+        
+        transform: scale(1.2);
+    }
+    .content2 p:hover{
+        color:red;
+        transition:0.3s ease-in-out;
+       
+        transform: scale(1.2);
+    }
+    .content3 p:hover{
+        color:red;
+        transition:0.3s ease-in-out;
+        
+        transform: scale(1.2);
+    }
+    .content4 p:hover{
+        color:red;
+        transition:0.3s ease-in-out;
+       
+        transform: scale(1.2);
+    }
+    .content5 p:hover{
+        color:red;
+        transition:0.3s ease-in-out;
+       
+        transform: scale(1.2);
+    }
+    .content6 p:hover{
+        color:red;
+        transition:0.3s ease-in-out;
+        
+        transform: scale(1.2);
+    }
+    
+    
+    
+    
+    
+}
+
+.site__info{
+    padding-top:4.5rem;
+    text-align: center;
+    
+}
+
+.site__info button{
+    font-size: 15px;
+    padding: .7rem;
+    border-radius: 999px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.site__info button:hover{
+    color:white;
+    background-color: black;
+    transition: .5s ease-in-out;
+}
+
+.site__info span{
+    color:red;
+    font-size:30px;
+    font-weight:700;
+    letter-spacing: 2px;
+}
+
+.site__info p{
+    font-weight:700;
+    letter-spacing: 2px;
+}
+
+
+
+
+
+    .slider{
+        width:80%;
+        height:400px;
+        position:absolute;
+        left:50%;
+        top:50%;
+        background-image: url(./images/first.jpg);
+        background-size: 100% 100%;
+        transform: translate(-50%, 50%);
+        box-shadow: 1px 2px 10px 4px gray;
+        animation: maindiv 40s infinite alternate-reverse;
+    }
+
+    @media only screen and (max-width:1300px){
+        .slider{
+            top:40%;
+        }
+    }
+
+
+    @media only screen and (max-width:1200px){
+        .slider{
+            top:40%;
+        }
+    }
+
+    @media only screen and (max-width:1100px){
+        .slider{
+            top:56%;
+        }
+    }
+
+    @media only screen and (max-width:1000px){
+        .slider{
+            top:24%;
+        }
+    }
+    @media only screen and (max-width:900px){
+        .slider{
+            top:30%;
+        }
+    }
+
+    @media only screen and (max-width:769px){
+        .slider{
+            height:400px;
+            top:33%;
+        }
+    }
+
+
+
+@media only screen and (max-width:568px){
+    .slider{
+        height:200px;
+        top:46%;
+    }
+}
+
+@media only screen and (max-width:450px){
+    .slider{
+        height:200px;
+        top:38%;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .slider{
+        height:200px;
+        top:37%;
+    }
+}
+
+
+@media only screen and (max-width:380px){
+    .slider{
+        height:200px;
+        top:47%;
+    }
+}
+
+
+
+@keyframes maindiv {
+    15%{
+        background-image: url("./images/second.jpg");
+    }
+    30%{
+        background-image: url("./images/ban1.jpg");
+    }
+    45%{
+        background-image: url("./images/third.jpg");
+    }
+    60%{
+        background-image: url("./images/ban2.jpg");
+    }
+    75%{
+        background-image: url("./images/fourth.jpg");
+    }
+    90%{
+        background-image: url("./images/ban3.jpg");
+    }
+
+}
+
+.home{
+    margin-top: 35rem;
+    margin-bottom: 5rem;
+    
+}
+
+.home__deals{
+
+    margin:2rem;
+    
+}
+
+.home__title{
+    
+    display: flex;
+    border:1px solid whitesmoke;
+    background-color: white;
+    
+    padding-left:2rem;
+    
+    padding-bottom:1rem;
+    padding-right: 2rem;
+    justify-content: space-between;
+}
+
+.home__title p{
+    font-size:30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: .5rem;
+}
+
+
+
+.home__button{
+    padding-left:2rem;
+    padding-top:2rem;
+    
+}
+
+.home__button button{
+    padding-left:2rem;
+    padding-right: 2rem;
+    padding-top:.5rem;
+    padding-bottom: .5rem;
+    font-size:15px;
+    font-weight:700;
+    background-color: #2874f0;
+    border-radius:20px;
+    color:white;
+}
+
+
+.home__products{
+    display: flex;
+    padding:2rem;
+    justify-content: space-between;
+}
+
+.home__products img{
+    object-fit: contain;
+    height:7rem;
+    
+}
+
+.electronics__products{
+    display: flex;
+    justify-content: space-between;
+}
+
+.electronics__products img{
+    object-fit: contain;
+    height:9rem;
+    
+    margin-left: 2rem;
+}
+
+
+.product__1 p{
+    text-align: center;
+
+}
+
+.product__1{
+    margin-bottom: 2rem;
+}
+
+.product__2{
+    margin-bottom: 2rem;
+}
+#para1{
+    font-size:1.1rem;
+    font-weight:600;
+    color: black;
+    text-transform: capitalize;
+}
+
+#para2{
+    font-size:.9rem;
+    color:#2874f0;
+}
+#para3{
+    font-size:1.1rem;
+    font-weight:600;
+    color: black;
+    text-transform: capitalize;
+    text-align: center;
+}
+#para4{
+    font-size:.9rem;
+    color:#2874f0;
+    text-align: center;
+}
+
+
+.product__1 span{
+    text-align: center;
+}
+
+.home__title small{
+    margin-left: 0rem;
+}
+
+.banner1 img{
+    
+    width:80%;
+    margin-left:8rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.banner2 img{
+    
+    width:80%;
+    margin-left:8rem;
+    border-radius: 10px;
+
+}
+
+.banner3 img{
+
+   width:80%;
+   margin-left:8rem;
+   border-radius: 10px;
+    
+}
+
+.banner4 img{
+    width:80%;
+    height:60%;
+    margin-left: 8rem;
+    border-radius: 10px;
+}
+
+.banner5 img{
+    width:80%;
+    margin-left: 8rem;
+    border-radius: 10px;
+}
+
+.banner6 img{
+    width:80%;
+    margin-left: 8rem;
+    border-radius: 10px;
+}
+
+
+
+@media only screen and (max-width:1025px){
+    .electronics__products img{
+        height:7rem;
+        width:6rem;
+    }
+    .electronics__products div{
+        margin-right: .5rem;
+    }
+   
+    .banner6 img{
+        margin-left: 6rem;
+    }
+    .banner5 img{
+        margin-left: 6rem;
+    }
+    .banner4 img{
+        margin-left: 6rem;
+    }
+
+    .banner1 img{
+        margin-left:6rem;
+    }
+    .banner3 img{
+        margin-left:6rem;
+    }
+    .banner2 img{
+        margin-left:6rem;
+    }
+}
+
+
+@media only screen and (max-width:769px){
+
+
+    .banner6 img{
+        margin-left: 4.5rem;
+    }
+    .banner5 img{
+        margin-left: 4.5rem;
+    }
+    .banner4 img{
+        margin-left: 4.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .banner2 img{
+        width:90%;
+        margin-left: 2rem;
+        margin-right: 2rem;
+
+    }
+    .banner3 img{
+        width:90%;
+        margin-left: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .banner1 img{
+        margin-left: 5rem;
+    }
+    .home__deals{
+        margin:0;
+    }
+    .home__products{
+        padding:0.8rem;
+    }
+
+    .home__products img{
+        height:6rem;
+        width:6rem;
+    }
+}
+
+@media only screen and (max-width:568px){
+    .electronics__products{
+        display: grid;
+        grid-template-columns: repeat(1fr,1fr);
+    }
+
+    .electronics__products img{
+        margin-left: 12rem;
+    }
+
+    #para3{
+        margin-left: 9rem;
+    }
+
+    #para4{
+        margin-left: 9rem;
+    }
+    
+    .banner6 img{
+        margin-left: 3rem;
+    }
+    .banner5 img{
+        margin-left: 3rem;
+    }
+    .banner4 img{
+        margin-left: 3rem;
+    }
+    .banner2 img{
+        margin-left:1.8rem;
+        margin-bottom: 1rem;
+     
+    }
+
+    .banner1 img{
+        margin-left: 3rem;
+    }
+    
+    .banner3 img{
+        margin-left: 1.6rem;
+    }
+
+    .home__title p{
+        font-size:18px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        margin-bottom: .5rem;
+    }
+    
+    .home__products{
+        display: grid;
+        grid-template-columns: repeat(1fr 1fr);
+        
+    }
+
+    #para1{
+        padding-left: 12rem;
+    }
+
+    #para2{
+        padding-left: 12rem;
+    }
+    
+    .home__products img{
+        padding-left:13rem
+    }
+    .home__button{
+        padding-left:2rem;
+        padding-top:1rem;
+        
+    }
+    
+    .home__button button{
+        padding-left:1rem;
+        padding-right: 1rem;
+        padding-top:.2rem;
+        padding-bottom: .2rem;
+        font-size:12px;
+        font-weight:600;
+        background-color: #2874f0;
+        border-radius:10px;
+        color:white;
+    }
+    
+}
+@media only screen and (max-width:450px){
+    .electronics__products img{
+        margin-left: 7rem;
+    }
+
+    #para3{
+        margin-left: 4.5rem;
+    }
+
+    #para4{
+        margin-left: 5rem;
+    }
+    .banner6 img{
+        margin-left: 2rem;
+    }
+    .banner5 img{
+        margin-left: 2rem;
+    }
+    .banner4 img{
+        margin-left: 2rem;
+    }
+    .banner1 img{
+        margin-left: 2.5rem;
+    }
+
+    .banner2 img{
+        margin-left: 1.5rem;
+       
+    }
+    
+    
+    .banner3 img{
+        margin-left: 1rem;
+    }
+    #para1{
+        padding-left: 7rem;
+    }
+    #para2{
+        padding-left: 7rem;
+    }
+
+    .home__products img{
+        padding-left:8rem
+    }
+}
+
+@media only screen and (max-width:350px){
+    .electronics__products img{
+        margin-left: 5rem;
+    }
+
+    #para3{
+        margin-left: 1.6rem;
+    }
+
+    #para4{
+        margin-left: 1.6rem;
+    }
+
+    .banner2 img{
+        margin-left: 1rem;
+    }
+    
+    .banner3 img{
+        margin-left: 1rem;
+    }
+    .banner1 img{
+        margin-left: 1.7rem;
+    }
+    #para1{
+        padding-left:5rem;
+    }
+    #para2{
+        padding-left: 5rem;
+    }
+    .home__products img{
+        padding-left: 6rem;
+    }
+}
+
+@media only screen and (max-width:568px){
+    .home{
+        margin-top: 18rem;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .home{
+        margin-top:17rem;
+    }
+}

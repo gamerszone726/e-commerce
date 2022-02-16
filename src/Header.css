@@ -1,0 +1,228 @@
+.header{
+    box-shadow:1rem 1.5rem 2rem rgba(59, 57, 57, 0.1);
+    cursor: pointer;
+}
+
+.empty{
+    color:red;
+}
+.desktop__mode{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:5rem;
+    background-color:#060709;
+    color:white;
+    overflow-x:hidden;
+    overflow-y: hidden;
+   
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+}
+
+
+
+
+.menu__logo a{
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    flex:0.1;
+    padding:10rem;
+    font-weight: 700;
+    color:white;
+}
+
+.menu__list{
+    flex:0.7;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+.menu__1,
+.menu__2,
+.menu__3,
+.menu__4,
+.menu__5
+
+{
+    
+    margin-right: 1rem;
+}
+
+.menu__1:hover,
+.menu__2:hover,
+.menu__3:hover,
+.menu__4:hover,
+.menu__5:hover,
+.menu__6:hover{
+    color:red;
+    text-decoration: underline;
+    transition: 0.3s ease-in-out;
+}
+
+
+.menu__icons{
+    display: flex;
+    padding-right:5rem;
+    align-items: center;
+}
+
+.search__icon{
+    
+    margin-right: 2rem;
+}
+
+.person__icon{
+  
+    margin-right: 2rem;
+}
+
+.cart__icon {
+    display: flex;
+    align-items: center;
+   
+}
+
+.search__icon >.MuiSvgIcon-root:hover{
+    color:red;
+    transition: 0.3s ease-in-out;
+}
+
+.person__icon >.MuiSvgIcon-root:hover{
+    color:red;
+    transition: 0.3s ease-in-out;
+}
+
+.cart__icon >.MuiSvgIcon-root:hover{
+    color:red;
+    transition: 0.3s ease-in-out;
+}
+
+.cart__icon p{
+    color:red;
+}
+
+@media only screen and (max-width:999px){
+    .menu__logo a{
+        font-size:1.3rem;
+        padding:2rem;
+    }
+    .menu__list{
+        padding-left:2rem;
+    }
+
+    .menu__icons{
+        padding-right:7rem;
+    }
+ 
+}
+
+@media only screen and (max-width:824px){
+    .menu__icons{
+        padding-right: 4rem;
+    }
+}
+
+@media only screen and (max-width:767px){
+    .desktop__mode{
+        display: none;
+    }
+}
+
+@media only screen and (min-width:767px){
+    .mobile__mode{
+        display: none;
+    }
+
+
+
+}
+@media only screen and (max-width:767px){
+
+    .mobile__mode{
+        display: flex;
+        background-color: #060709;
+        color:white;
+        height:4rem;
+        padding-left:3rem;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+    .left{
+        display: flex;
+        align-items: center;
+    }
+
+  
+
+
+    .cartify a{
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-left: 5px;
+    }
+
+    .right{
+        display: flex;
+        align-items: center;
+        padding-right:2rem;
+    }
+
+   
+    .person:hover{
+        color:red;
+        transition: 0.3s ease-in-out;
+    }
+
+    .person >.MuiSvgIcon-root{
+        padding-left:1rem;
+    }
+
+    .person{
+        margin-right: 1rem;
+        align-items: center;
+    }
+
+    .search{
+        margin-right: 1rem;
+        align-items: center;
+    }
+
+    .search:hover{
+        color:red;
+        transition: 0.3s ease-in-out;
+    }
+
+    .cart{
+        margin-right: 1rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .cart:hover{
+        color:red;
+        transition: 0.3s ease-in-out;
+    }
+    
+    .cart p{
+        color:red;
+    } 
+
+    .menu >.MuiSvgIcon-root{
+        width:2.3rem;
+        height:2.3rem;
+        padding-right:1.6rem;
+    }
+
+}
